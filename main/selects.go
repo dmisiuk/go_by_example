@@ -1,8 +1,8 @@
 package main
 
 import (
-	"time"
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -27,5 +27,4 @@ func main() {
 			fmt.Println(msg)
 		}
 	}
-
 }
