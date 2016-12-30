@@ -6,7 +6,7 @@ func zeroval(v int) {
 	v = 3
 }
 
-func zeropt(v *int)  {
+func zeropt(v *int) {
 	*v = 1
 }
 
