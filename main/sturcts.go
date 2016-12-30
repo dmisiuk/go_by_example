@@ -13,9 +13,20 @@ func printcard(c card) {
 	c.cardUUID = "2"
 }
 
+func changecard(c *card) {
+	c.cardUUID = "_"
+	c.nfcUUID = "_"
+}
+
 func main() {
 	c := card{"101", "sewqdfae1"}
-	fmt.Println(c.cardUUID)
+	fmt.Println(c)
 	printcard(c)
-	fmt.Println("after invoking:", c.cardUUID)
+	fmt.Println(c)
+
+	cp := &c
+	changecard(cp)
+	fmt.Println(cp)
+	fmt.Println(c)
+
 }
