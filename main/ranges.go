@@ -15,14 +15,14 @@ func main() {
 
 	fmt.Println("sum:", sum)
 
-	m := map[string]string{"1": "first", "2":"second"}
+	m := map[string]string{"1": "first", "2": "second"}
 
-	for k,v := range m {
+	for k, v := range m {
 		fmt.Println(k, "->", v)
 	}
 
-	for i,c := range "умный" {
-		fmt.Println(i ,"->", c)
+	for i, c := range "умный" {
+		fmt.Println(i, "->", c)
 	}
 
 }

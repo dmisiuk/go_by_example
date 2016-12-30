@@ -14,6 +14,6 @@ func main() {
 	fmt.Println("len:", len(a))
 
 	for i := 0; i < len(a); i++ {
-		fmt.Println("a[",i,"]=", a[i])
+		fmt.Println("a[", i, "]=", a[i])
 	}
 }

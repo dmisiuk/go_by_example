@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("k:", k)
 	fmt.Println("v:", v)
 
-	inline_m := map[string]int{"1":1, "2":2}
+	inline_m := map[string]int{"1": 1, "2": 2}
 
 	fmt.Println("inline_m:", inline_m)
 }
