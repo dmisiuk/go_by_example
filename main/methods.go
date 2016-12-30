@@ -15,7 +15,7 @@ func (r *rect) area() int {
 }
 
 func main() {
-	r := rect{width:20, height:5}
+	r := rect{width: 20, height: 5}
 	fmt.Println(r)
 
 	fmt.Println("area:", r.area())
